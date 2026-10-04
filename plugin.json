@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "kova-strategy-builder",
+  "version": "0.3.7",
+  "description": "Interviews you and writes your investment strategy down in your own words, as a strategy.md you keep. No account needed. Never tells you what to buy.",
+  "author": {
+    "name": "Kova",
+    "email": "info@kovatools.com",
+    "url": "https://kovatools.com"
+  },
+  "homepage": "https://kovatools.com/agents",
+  "repository": "https://github.com/kovatools/kova-strategy-builder",
+  "license": "MIT",
+  "keywords": ["investment-strategy", "investing", "portfolio", "strategy", "self-directed-investing"]
+}

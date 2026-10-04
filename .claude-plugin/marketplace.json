@@ -1,0 +1,19 @@
+{
+  "name": "kova-strategy-builder",
+  "owner": {
+    "name": "Kova",
+    "email": "info@kovatools.com"
+  },
+  "description": "Kova Strategy Builder: interview yourself into a written investment strategy.",
+  "plugins": [
+    {
+      "name": "kova-strategy-builder",
+      "source": "./",
+      "description": "Interviews you and writes your investment strategy down in your own words, as a strategy.md you keep. No account needed. Never tells you what to buy.",
+      "version": "0.3.7",
+      "author": {
+        "name": "Kova"
+      }
+    }
+  ]
+}

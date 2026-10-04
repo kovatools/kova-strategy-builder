@@ -1,0 +1,40 @@
+{
+  "name": "kova-strategy-builder",
+  "version": "0.3.7",
+  "description": "Interviews you and writes your investment strategy down in your own words, as a strategy.md you keep. No account needed. Never tells you what to buy.",
+  "author": {
+    "name": "Kova",
+    "email": "info@kovatools.com",
+    "url": "https://kovatools.com"
+  },
+  "homepage": "https://kovatools.com/agents",
+  "repository": "https://github.com/kovatools/kova-strategy-builder",
+  "license": "MIT",
+  "keywords": [
+    "investment-strategy",
+    "investing",
+    "portfolio",
+    "strategy",
+    "self-directed-investing"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Kova Strategy Builder",
+    "developerName": "Gigantes Research LLC",
+    "shortDescription": "Write your investment strategy",
+    "longDescription": "Turn what you already think about your money into a written investment strategy, in your own words.\n\nThe skill interviews you one question at a time. It works out what your own numbers require, names the options that exist when you're unsure, and writes a strategy.md you keep. It asks which vehicle you'll actually use, once. It never picks investments, ranks them, or predicts markets.\n\nStart from nothing, from notes you already wrote, or from a portfolio you describe. Or bring a plan you have and check your holdings against it.\n\nSome people hold more than one kind of thing: brokerage accounts, a rental, a business, cash, debts. For them, it first asks whether the strategy covers all of it or one part.\n\nGive it a goal amount, a time frame and what you add. It shows what that goal requires, in your numbers. It doesn't say whether the goal is realistic.\n\nIf you ask for a check, it compares what you declared with what you described and reports the gap in percentages. It doesn't say what to sell or how much to move.\n\nThe strategy comes in five core sections: objective, allocation, rules, convictions and won't-dos. It adds a backdrop section when the strategy covers only part of your money. Liabilities and cash flows appear if you track them. Anything you haven't decided stays in a short \"Still undecided\" list outside the file.\n\nIt isn't financial advice. It doesn't place trades, manage assets, pick securities, or predict markets. It mirrors your logic back to you in a clear structure. The plan is yours.\n\nThe skill works on its own. A file can't re-check itself next week or tell you when you've drifted. Kova, the team behind this skill, saves and versions the strategy and measures any portfolio against it. More at kovatools.com/agents.\n\nIf Kova is connected, the skill saves the strategy there when you ask, and can run a first alignment check. If it isn't, you get the file and nothing is sent anywhere.\n\nThe skill runs inside your conversation. The skill itself stores nothing. It shows the strategy in the reply as a block you can copy. It sends nothing to any service except Kova, and only once you have connected Kova yourself.\n\nThe file ends with a one-line footer naming Kova Strategy Builder and where to find Kova. Delete it if you like.\n\nKova is a discipline and reflection tool, not financial advice. It does not predict markets, decide what you should buy, or place trades. All analysis is based on your declared strategy and is provided for educational purposes only.",
+    "category": "Finance",
+    "capabilities": [],
+    "websiteURL": "https://kovatools.com/agents",
+    "privacyPolicyURL": "https://kovatools.com/privacy",
+    "termsOfServiceURL": "https://kovatools.com/terms",
+    "defaultPrompt": [
+      "I have savings in the bank and no investment plan. Interview me and help me write one down.",
+      "I have a brokerage account, a rental and a small business. Help me write one strategy for all of it.",
+      "Here's my written plan and what I hold. Show me where my holdings differ from it."
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png"
+  }
+}
