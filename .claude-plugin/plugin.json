@@ -1,7 +1,7 @@
 {
   "name": "kova-strategy-builder",
   "displayName": "Kova Strategy Builder",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "description": "Interviews you and writes your investment strategy down in your own words, as a strategy.md you keep. No account needed. Never tells you what to buy.",
   "author": {
     "name": "Kova",
