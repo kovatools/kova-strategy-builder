@@ -11,6 +11,9 @@
   "homepage": "https://kovatools.com/agents",
   "repository": "https://github.com/kovatools/kova-strategy-builder",
   "privacyPolicyUrl": "https://kovatools.com/privacy",
+  "supportUrl": "https://github.com/kovatools/kova-strategy-builder/issues",
+  "documentationUrl": "https://github.com/kovatools/kova-strategy-builder/blob/main/README.md",
+  "termsOfServiceUrl": "https://kovatools.com/terms",
   "license": "MIT",
   "keywords": ["investment-strategy", "investing", "portfolio", "strategy", "self-directed-investing"]
 }
